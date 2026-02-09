@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
-  "notes": "Initial release of Reticle via GitHub Releases.",
+  "notes": "First Public Beta Release",
   "pub_date": "2026-02-09T20:00:00Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "",
-      "url": ""
-    }
-  }
+  "download_url": "https://github.com/saint4626/reticle-releases/releases/download/v1.0.0/Reticle_1.0.0_x64-setup.exe"
 }
