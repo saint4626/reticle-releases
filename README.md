@@ -10,6 +10,9 @@
   </p>
 
   <p>
+    <a href="https://reticle.ru">
+      <img src="https://img.shields.io/badge/Website-reticle.ru-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
+    </a>
     <a href="https://github.com/saint4626/reticle-releases/releases/latest">
       <img src="https://img.shields.io/github/v/release/saint4626/reticle-releases?style=for-the-badge&color=blue" alt="Latest Version">
     </a>
@@ -71,6 +74,18 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 4. Enjoy!
 
 ---
+
+<div align="center">
+  <h3>❤️ Support the Project / Поддержать проект</h3>
+  <p>Reticle is free to use, but development takes time and effort. If you like the tool, consider supporting me on Boosty!</p>
+  <p><i>Reticle бесплатен, но разработка требует сил. Если вам нравится инструмент, поддержите меня на Boosty!</i></p>
+  
+  <a href="https://boosty.to/pikadesigner">
+    <img src="https://img.shields.io/badge/Support%20on-Boosty-orange?style=for-the-badge&logo=boosty&logoColor=white" alt="Support on Boosty" height="40">
+  </a>
+</div>
+
+<br />
 
 <div align="center">
   <i>Built with ❤️ by <a href="https://github.com/saint4626">saint4626</a></i>
