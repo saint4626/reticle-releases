@@ -33,10 +33,10 @@
     <a href="https://github.com/saint4626/reticle-releases/releases/latest/download/Reticle_1.0.0_x64-setup.exe">
       📥 Download for Windows (x64)
     </a>
+  </h1>
     <a href="https://www.virustotal.com/gui/file/6b50f04a56bb3d5ccd454b5b14ea5e39433504a178ac80511f556a5c7ed19a51?nocache=1">
       <img src="https://img.shields.io/badge/VirusTotal-100%25_Clean-brightgreen?style=for-the-badge&logo=virustotal"     alt="VirusTotal Clean 70/71 Passes">
     </a>
-  </h1>
   <p><i>Requires Windows 10 or 11</i></p>
 
 </div>
