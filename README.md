@@ -73,7 +73,7 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 
 | Status | Feature |
 | :---: | :--- |
-| ✅ | **Smart Capture & Editor** (Shadows, Blur, Arrows)<br>*(Умный захват и редактор: Тени, Блюр, Стрелки)* |
+| ✅ | **Capture & Editor** (Shadows, Blur, Arrows)<br>*(Захват и редактор: Тени, Блюр, Стрелки)* |
 | ✅ | **History**<br>*(История)* |
 | 🚧 | **🎥 Video Recording Mode** (In Progress)<br>*(Запись видео с экрана — В работе)* |
 | 🔜 | **Cloud Upload & Sharing**<br>*(Загрузка в облако и шеринг ссылок)* |
