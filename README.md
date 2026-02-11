@@ -69,6 +69,19 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 
 ---
 
+## 🚀 Roadmap / Планы развития
+
+| Status | Feature |
+| :---: | :--- |
+| ✅ | **Smart Capture & Editor** (Shadows, Blur, Arrows)<br>*(Умный захват и редактор: Тени, Блюр, Стрелки)* |
+| ✅ | **History**<br>*(История)* |
+| 🚧 | **🎥 Video Recording Mode** (In Progress)<br>*(Запись видео с экрана — В работе)* |
+| 🔜 | **Cloud Upload & Sharing**<br>*(Загрузка в облако и шеринг ссылок)* |
+| 🔜 | **Text Tool & Stickers**<br>*(Инструмент "Текст" и стикеры)* |
+| 🔜 | **macOS & Linux Support**<br>*(Поддержка macOS и Linux)* |
+
+---
+
 ## 🛠 Installation
 
 1. Download the latest installer from **[Releases](https://github.com/saint4626/reticle-releases/releases/latest)**.
