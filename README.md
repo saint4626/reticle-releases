@@ -51,10 +51,10 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 | Feature | Description |
 | :--- | :--- |
 | 📸 **Instant Capture** | Capture Fullscreen, Active Window, or select a custom Region pixel-perfectly.<br>*(Мгновенный захват экрана, окна или области).* |
-| � **Screen Recording** | Record your screen with system audio and microphone. GPU-accelerateТd encoding (NVIDIA, AMD, Intel).<br>*(Запись экрана с системным звуком и микрофоном. GPU-ускорение).* |
+| 📸 **Screen Recording** | Record your screen with system audio and microphone. GPU-accelerateТd encoding (NVIDIA, AMD, Intel).<br>*(Запись экрана с системным звуком и микрофоном. GPU-ускорение).* |
 | ✨ **Video Editor** | Beautiful video editor with background, shadows, padding and border radius — just like screenshots.<br>*(Видеоредактор с фоном, тенями и скруглениями — как для скриншотов).* |
 | 🖱️ **Animated Cursor** | Fake cursor overlay with smooth spring physics, style detection (arrow, text, pointer) and click effects.<br>*(Анимированный курсор с пружинной физикой и определением стиля).* |
-| � **HAuto-Zoom** | Automatic zoom keyframes generated from click clusters. Smooth ease-in/out transitions.<br>*(Автоматический зум по кликам с плавными переходами).* |
+| ✨ **Auto-Zoom** | Automatic zoom keyframes generated from click clusters. Smooth ease-in/out transitions.<br>*(Автоматический зум по кликам с плавными переходами).* |
 | ⌨️ **Key Overlay** | Keystroke visualization overlay rendered on top of the video during export.<br>*(Визуализация нажатий клавиш поверх видео).* |
 | 🎨 **Powerful Editor** | Add shadows, rounded corners, backgrounds, arrows, and shapes to screenshots.<br>*(Тени, скругления, фоны, стрелки и фигуры для скриншотов).* |
 | 🛡️ **Privacy First** | **Blur tool** allows you to hide sensitive data like passwords or credit cards.<br>*(Инструмент размытия скрывает личные данные).* |
