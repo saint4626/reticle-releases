@@ -6,7 +6,7 @@
   <h1>Reticle</h1>
   
   <p>
-    <strong>Modern. Fast. Precision Screenshot Tool.</strong>
+    <strong>Modern. Fast. Precision Screenshot & Screen Recording Tool.</strong>
   </p>
 
   <p>
@@ -30,12 +30,12 @@
   <br />
 
   <h1>
-    <a href="https://github.com/saint4626/reticle-releases/releases/latest/download/Reticle_1.0.0_x64-setup.exe">
+    <a href="https://github.com/saint4626/reticle-releases/releases/latest/download/Reticle_1.1.0_x64-setup.exe">
       📥 Download for Windows (x64)
     </a>
   </h1>
     <a href="https://www.virustotal.com/gui/file/6b50f04a56bb3d5ccd454b5b14ea5e39433504a178ac80511f556a5c7ed19a51?nocache=1">
-      <img src="https://img.shields.io/badge/VirusTotal-100%25_Clean-brightgreen?style=for-the-badge&logo=virustotal"     alt="VirusTotal Clean 70/71 Passes">
+      <img src="https://img.shields.io/badge/VirusTotal-100%25_Clean-brightgreen?style=for-the-badge&logo=virustotal" alt="VirusTotal Clean">
     </a>
   <p><i>Requires Windows 10 or 11</i></p>
 
@@ -51,7 +51,12 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 | Feature | Description |
 | :--- | :--- |
 | 📸 **Instant Capture** | Capture Fullscreen, Active Window, or select a custom Region pixel-perfectly.<br>*(Мгновенный захват экрана, окна или области).* |
-| 🎨 **Powerful Editor** | Add shadows, rounded corners, backgrounds, arrows, and shapes.<br>*(Тени, скругления, фоны, стрелки и фигуры).* |
+| � **Screen Recording** | Record your screen with system audio and microphone. GPU-accelerateТd encoding (NVIDIA, AMD, Intel).<br>*(Запись экрана с системным звуком и микрофоном. GPU-ускорение).* |
+| ✨ **Video Editor** | Beautiful video editor with background, shadows, padding and border radius — just like screenshots.<br>*(Видеоредактор с фоном, тенями и скруглениями — как для скриншотов).* |
+| 🖱️ **Animated Cursor** | Fake cursor overlay with smooth spring physics, style detection (arrow, text, pointer) and click effects.<br>*(Анимированный курсор с пружинной физикой и определением стиля).* |
+| � **HAuto-Zoom** | Automatic zoom keyframes generated from click clusters. Smooth ease-in/out transitions.<br>*(Автоматический зум по кликам с плавными переходами).* |
+| ⌨️ **Key Overlay** | Keystroke visualization overlay rendered on top of the video during export.<br>*(Визуализация нажатий клавиш поверх видео).* |
+| 🎨 **Powerful Editor** | Add shadows, rounded corners, backgrounds, arrows, and shapes to screenshots.<br>*(Тени, скругления, фоны, стрелки и фигуры для скриншотов).* |
 | 🛡️ **Privacy First** | **Blur tool** allows you to hide sensitive data like passwords or credit cards.<br>*(Инструмент размытия скрывает личные данные).* |
 | ⚡ **Zero Lag** | Written in Rust. Opens instantly. Uses < 1% CPU.<br>*(Написано на Rust. Открывается мгновенно).* |
 | 📋 **History** | Never lose a screenshot. Built-in history lets you re-edit past captures.<br>*(Встроенная история скриншотов).* |
@@ -75,7 +80,11 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 | :---: | :--- |
 | ✅ | **Capture & Editor** (Shadows, Blur, Arrows)<br>*(Захват и редактор: Тени, Блюр, Стрелки)* |
 | ✅ | **History**<br>*(История)* |
-| 🚧 | **🎥 Video Recording Mode** (In Progress)<br>*(Запись видео с экрана — В работе)* |
+| ✅ | **🎥 Video Recording Mode** — GPU encoding, system audio + mic, pause/resume<br>*(Запись видео: GPU-кодирование, системный звук + микрофон, пауза)* |
+| ✅ | **🎬 Video Editor** — background, shadows, padding, border radius, timeline, waveforms<br>*(Видеоредактор: фон, тени, таймлайн, аудиодорожки)* |
+| ✅ | **🖱️ Animated Cursor** — spring physics, style detection, click ripple<br>*(Анимированный курсор с физикой и определением стиля)* |
+| ✅ | **🔍 Auto-Zoom** — click cluster detection, smooth keyframe transitions<br>*(Автозум по кликам с плавными переходами)* |
+| ✅ | **📤 Video Export** — MP4/WebM, H.264, quality presets, audio mixing<br>*(Экспорт видео: MP4/WebM, H.264, пресеты качества, микс аудио)* |
 | 🔜 | **Cloud Upload & Sharing**<br>*(Загрузка в облако и шеринг ссылок)* |
 | 🔜 | **Text Tool & Stickers**<br>*(Инструмент "Текст" и стикеры)* |
 | 🔜 | **macOS & Linux Support**<br>*(Поддержка macOS и Linux)* |
@@ -85,7 +94,7 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 ## 🛠 Installation
 
 1. Download the latest installer from **[Releases](https://github.com/saint4626/reticle-releases/releases/latest)**.
-2. Run `Reticle_1.0.0_x64-setup.exe`.
+2. Run `Reticle_1.1.0_x64-setup.exe`.
 3. Windows SmartScreen might appear (since we are an indie developer). Click **"More Info" -> "Run Anyway"**.
 4. Enjoy!
 
@@ -98,6 +107,15 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
   
   <a href="https://boosty.to/pikadesigner">
     <img src="https://img.shields.io/badge/Support%20on-Boosty-orange?style=for-the-badge&logo=boosty&logoColor=white" alt="Support on Boosty" height="40">
+  </a>
+
+  <br /><br />
+
+  <a href="https://t.me/VadimTexDex">
+    <img src="https://img.shields.io/badge/Telegram-@VadimTexDex-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://x.com/VRMOMONTH">
+    <img src="https://img.shields.io/badge/X-@VRMOMONTH-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
   </a>
 </div>
 
