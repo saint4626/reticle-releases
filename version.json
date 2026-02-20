@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1",
-  "notes": "Audio Mixer & Background Music: per-track volume controls, music track with waveform, video trimming, Spanish & Italian localization, and bug fixes.",
-  "pub_date": "2026-02-20T20:00:00Z",
-  "download_url": "https://github.com/saint4626/reticle-releases/releases/download/v1.1.1/Reticle_1.1.1_x64-setup.exe"
+  "version": "1.1.2",
+  "notes": "Performance improvements and export speed optimizations.",
+  "pub_date": "2026-02-21T20:00:00Z",
+  "download_url": "https://github.com/saint4626/reticle-releases/releases/download/v1.1.2/Reticle_1.1.2_x64-setup.exe"
 }
