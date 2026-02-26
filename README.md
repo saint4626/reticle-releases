@@ -94,11 +94,7 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 ## 🛠 Installation
 
 1. Download the latest installer from **[Releases](https://github.com/saint4626/reticle-releases/releases/latest)**.
-<<<<<<< HEAD
 2. Run `Reticle_1.1.4_x64-setup.exe`.
-=======
-2. Run `Reticle_1.1.3_x64-setup.exe`.
->>>>>>> ebe41ad27c6a609d02f32c1b5d399701d8ac1b94
 3. Windows SmartScreen might appear (since we are an indie developer). Click **"More Info" -> "Run Anyway"**.
 4. Enjoy!
 
