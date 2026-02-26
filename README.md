@@ -94,7 +94,7 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 ## 🛠 Installation
 
 1. Download the latest installer from **[Releases](https://github.com/saint4626/reticle-releases/releases/latest)**.
-2. Run `Reticle_1.1.0_x64-setup.exe`.
+2. Run `Reticle_1.1.4_x64-setup.exe`.
 3. Windows SmartScreen might appear (since we are an indie developer). Click **"More Info" -> "Run Anyway"**.
 4. Enjoy!
 
@@ -110,12 +110,33 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
   </a>
 
   <br /><br />
+  
+  <h4>Crypto Support</h4>
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img width="120" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=bitcoin:bc1q46dy7mkqcd288n6kr5jtlx9ggndynhw77zcchh&format=png" alt="BTC QR" /><br/>
+        <b>Bitcoin (BTC)</b><br/>
+        <code>bc1q46dy7mkqcd288n6kr5jtlx9ggndynhw77zcchh</code>
+      </td>
+      <td align="center">
+        <img width="120" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=ethereum:0x414C088b88fFec444D9A0963e16ca04A456f9514&format=png" alt="ETH QR" /><br/>
+        <b>Ethereum (ETH)</b><br/>
+        <code>0x414C088b88fFec444D9A0963e16ca04A456f9514</code>
+      </td>
+    </tr>
+  </table>
+
+  <br /><br />
 
   <a href="https://t.me/VadimTexDex">
     <img src="https://img.shields.io/badge/Telegram-@VadimTexDex-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
   </a>
   <a href="https://x.com/VRMOMONTH">
     <img src="https://img.shields.io/badge/X-@VRMOMONTH-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+  </a>
+  <a href="https://discord.gg/j5Vrs4QNtR">
+    <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
 </div>
 
