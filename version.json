@@ -1,6 +1,6 @@
 {
-  "version": "1.1.4",
-  "notes": "Stability & UX Improvements: Capture toolbar UI polish, new window selector dropdown, transparent launch, fixed console flashing, custom save paths, and localization.",
-  "pub_date": "2026-02-26T14:00:00Z",
-  "download_url": "https://github.com/saint4626/reticle-releases/releases/download/v1.1.4/Reticle_1.1.4_x64-setup.exe"
+  "version": "1.1.5",
+  "notes": "Zoom Engine & Camera System: spring-physics zoom, cursor follow, dead zone, motion blur, emoji stickers, German language, pan & export fixes.",
+  "pub_date": "2026-03-01T14:00:00Z",
+  "download_url": "https://github.com/saint4626/reticle-releases/releases/download/v1.1.5/Reticle_1.1.5_x64-setup.exe"
 }
