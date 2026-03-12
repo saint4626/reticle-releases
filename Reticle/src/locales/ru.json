@@ -1,0 +1,277 @@
+{
+  "common": {
+    "cancel": "Отмена",
+    "ok": "ОК",
+    "save": "Сохранить",
+    "close": "Закрыть"
+  },
+  "settings": {
+    "title": "Настройки",
+    "tabs": {
+      "general": "Основное",
+      "hotkeys": "Хоткеи",
+      "about": "О приложении"
+    },
+    "about": {
+      "description": "Минималистичный и быстрый инструмент для создания скриншотов, созданный с вниманием к деталям.",
+      "author": "Автор",
+      "version": "Версия",
+      "stage": "Этап разработки",
+      "stage_desc": "15 - Реализация новых функций и полировка",
+      "links": "Ссылки"
+    },
+    "general": {
+      "system": "Система",
+      "autostart": "Запускать вместе с системой",
+      "autostart_desc": "Автоматически открывать Reticle при входе в Windows",
+      "language": "Язык",
+      "language_desc": "Выберите язык интерфейса",
+      "debug": "Отладка",
+      "logs": "Логи приложения",
+      "logs_desc": "Открыть папку с лог-файлами для диагностики",
+      "open_folder": "Открыть папку",
+      "autosave": "Место сохранения",
+      "autosave_toggle": "Свои пути сохранения",
+      "autosave_toggle_desc": "Сохранять скриншоты и видео в указанные папки",
+      "screenshot_folder": "Папка скриншотов",
+      "video_folder": "Папка видео",
+      "ocr_engine": "OCR движок",
+      "ocr_engine_desc": "Выберите движок распознавания текста",
+      "default_folder": "По умолчанию: {folder}",
+      "browse": "Обзор"
+    },
+    "hotkeys": {
+      "title": "Горячие клавиши",
+      "action": "Действие",
+      "keys": "Сочетание",
+      "recording": "Запись",
+      "actions": {
+        "show_app": "Показать интерфейс",
+        "fullscreen": "Снимок всего экрана",
+        "region": "Снимок области",
+        "window": "Снимок окна",
+        "record_fullscreen": "Запись Экрана",
+        "record_region": "Запись Области",
+        "record_window": "Запись Окна",
+        "pause_recording": "Пауза записи",
+        "stop_recording": "Остановка записи",
+        "capture_toolbar": "Панель захвата"
+      },
+      "info_title": "Информация",
+      "info_desc": "Сочетания работают глобально, даже когда Reticle свернут в трей.",
+      "register_error": "Не удалось зарегистрировать {shortcut}. Вполне возможно, кнопка уже занята системой."
+    }
+  },
+  "welcome": {
+    "title": "Добро пожаловать в Reticle",
+    "subtitle": "Красивый и минималистичный инструмент для создания скриншотов.",
+    "features": {
+      "backgrounds": {
+        "title": "Красивые фоны",
+        "desc": "Добавляйте градиенты и отступы"
+      },
+      "annotations": {
+        "title": "Аннотации",
+        "desc": "Рисуйте стрелки"
+      },
+      "privacy": {
+        "title": "Приватность",
+        "desc": "Скрывайте важное за секунды"
+      },
+      "native": {
+        "title": "Быстро и нативно",
+        "desc": "Создано на Rust"
+      }
+    },
+    "start_button": "Начать работу",
+    "tray_hint": "После закрытия окна Reticle остаётся в трее — ищите иконку рядом с часами."
+  },
+  "editor": {
+    "capture_error": "Ошибка при снятии снимка: ",
+    "no_image_to_save": "Нет изображения для сохранения!",
+    "render_error": "Ошибка рендеринга: ",
+    "saved_success": "Сохранено в Изображения/Reticle",
+    "save_error": "Ошибка сохранения: ",
+    "copy_success": "Скопировано в буфер обмена!",
+    "copy_error": "Ошибка копирования: ",
+    "empty_state": "Нажмите \"Снимок\", чтобы начать",
+    "tools": {
+      "fullscreen": "Весь экран",
+      "region": "Область",
+      "window": "Окно",
+      "arrow_style": "Стиль стрелки",
+      "undo": "Отменить (Undo)",
+      "blur": "Замылить (Blur)",
+      "clear": "Очистить",
+      "copy": "Скопировать",
+      "save": "Сохранить",
+      "sticker": "Эмодзи стикер",
+      "background": "Фон",
+      "coming_soon": "Скоро",
+      "ocr_scan": "Распознать текст",
+      "ocr_ready": "Текст распознан. Нажмите на бокс для копирования.",
+      "ocr_empty": "Текст не найден",
+      "ocr_error": "Ошибка распознавания текста: "
+    },
+    "video": {
+      "frame_rate": "Частота кадров",
+      "encoder": "Кодировщик",
+      "unknown": "Неизвестно",
+      "video_encoder": "Видео кодировщик",
+      "microphone": "Микрофон",
+      "enable_mic": "Включить микрофон",
+      "select_device": "Выберите устройство",
+      "no_mics": "Микрофоны не найдены",
+      "system_audio_on": "Системный звук: ВКЛ",
+      "system_audio_off": "Системный звук: ВЫКЛ",
+      "cursor_visible": "Курсор виден",
+      "cursor_hidden": "Курсор скрыт",
+      "switch_to_screenshot": "Переключить на Скриншот",
+      "switch_to_video": "Переключить на Видео",
+      "recording": "Запись...",
+      "record_screen": "Записать Экран",
+      "record_area": "Записать Область",
+      "record_window": "Записать Окно",
+      "resume_recording": "Продолжить запись",
+      "pause_recording": "Пауза записи",
+      "stop_recording": "Остановить запись"
+    },
+    "video_errors": {
+      "recording_error": "Ошибка записи: ",
+      "start_failed": "Не удалось начать запись: ",
+      "stop_failed": "Не удалось остановить запись: ",
+      "pause_failed": "Не удалось поставить на паузу: ",
+      "window_capture_failed": "Не удалось захватить окно: "
+    },
+    "properties": {
+      "arrow_style": "Стиль стрелки",
+      "color": "Цвет",
+      "thickness": "Толщина",
+      "background": "Фон",
+      "colors": {
+        "white": "Белый",
+        "transparent": "Прозрачный"
+      },
+      "shadow": "Тень",
+      "opacity": "Прозрачность",
+      "blur": "Размытие",
+      "spread": "Размах",
+      "dimensions": "Размеры",
+      "padding": "Отступ",
+      "border_radius": "Скругление",
+      "background_blur": "Размытие фона",
+      "image": "Изображение",
+      "shader_bg": "Шейдерный фон",
+      "shader_reset": "Сброс",
+      "shader_randomize": "Случайные параметры",
+      "shader_speed": "Скорость",
+      "shader_strength": "Сила",
+      "shader_size": "Размер",
+      "shader_deformation": "Деформация",
+      "shader_base_color": "Цвет основы",
+      "shader_color_a": "Цвет A",
+      "shader_color_b": "Цвет B",
+      "shader_halftone": "Полутон",
+      "x": "X",
+      "y": "Y"
+    }
+  },
+  "monitor_selector": {
+    "title": "Выберите экран",
+    "instruction_key": "Нажмите клавишу",
+    "instruction_mouse": "или кликните мышкой"
+  },
+  "history": {
+    "title": "История скриншотов",
+    "empty": "История пуста",
+    "load_tooltip": "Перенести в редактор",
+    "delete_tooltip": "Удалить",
+    "delete_success": "Скриншот удален"
+  },
+  "window_selector": {
+    "title": "Выберите окно для снимка",
+    "searching": "Поиск открытых окон...",
+    "load_error": "Не удалось загрузить окна: ",
+    "retry": "Повторить",
+    "no_windows": "Подходящие окна не найдены.",
+    "untitled_window": "Окно без названия",
+    "cancel_instruction": "Нажмите ESC для отмены"
+  },
+  "region_selector": {
+    "instruction": "Выделите область для снимка. ESC для отмены."
+  },
+  "video_editor": {
+    "loading_thumbnails": "Загрузка миниатюр...",
+    "loading_tracking": "Загрузка данных трекинга...",
+    "empty_state": "Видео не загружено",
+    "restart": "В начало",
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "toggle_cursor": "Курсор",
+    "toggle_zoom": "Зум",
+    "auto_zoom": "Авто зум",
+    "clear_keyframes": "Очистить кейфреймы",
+    "close_editor": "Закрыть редактор",
+    "export_video": "Экспорт видео",
+    "export": "Экспортировать",
+    "exporting": "Экспорт...",
+    "rendering_overlays": "Рендеринг оверлеев...",
+    "processing_video": "Обработка видео...",
+    "compositing": "Композитинг видео...",
+    "export_complete": "Экспорт завершен!",
+    "export_success": "Видео успешно экспортировано",
+    "export_failed": "Ошибка экспорта",
+    "no_video": "Нет видео для экспорта",
+    "codec": "Видеокодек",
+    "codec_hint": "Аппаратные кодеки (NVENC, AMF, QSV) быстрее CPU",
+    "codec_hint_new": "Показаны только надежные кодеки (H.264 для MP4, VP9/VP8 для WebM)",
+    "video_codec": "Видеокодек",
+    "preset": "Скорость кодирования",
+    "preset_hint": "Быстрые пресеты = больший размер файла",
+    "quality": "Качество (CRF)",
+    "quality_hint": "Меньшие значения = лучше качество, больше размер",
+    "quality_preset": "Пресет качества",
+    "quality_preset_hint": "Выше качество = лучше видео, больше размер файла",
+    "highest": "Высшее",
+    "lowest": "Низшее",
+    "show_advanced": "Показать расширенные",
+    "hide_advanced": "Скрыть расширенные",
+    "output_format": "Формат вывода",
+    "format_hint": "Больше форматов скоро",
+    "format_hint_new": "MP4 с H.264 наиболее совместим, WebM с VP9 более эффективен",
+    "format_hint_gif": "Анимированный GIF — без звука, больший размер файла. Лучше для коротких клипов",
+    "gif_fps": "Частота кадров GIF",
+    "gif_width": "Ширина GIF",
+    "gif_width_hint": "Высота масштабируется автоматически с сохранением пропорций",
+    "converting_gif": "Конвертация в GIF...",
+    "export_hint": "Это может занять несколько минут в зависимости от длины видео",
+    "audio_tracks": "Аудио дорожки",
+    "system_audio": "Системный звук",
+    "microphone_audio": "Микрофон",
+    "audio_tracks_hint": "Выберите какие аудио дорожки включить в экспорт",
+    "music_track": "Музыкальная дорожка",
+    "add_music": "Добавить музыку",
+    "music_volume": "Громкость музыки",
+    "remove_music": "Удалить музыку"
+  },
+  "video_history": {
+    "title": "История видео",
+    "empty": "Видео еще не записаны",
+    "load_tooltip": "Загрузить в редактор",
+    "delete_tooltip": "Удалить видео",
+    "delete_success": "Видео удалено",
+    "file_not_found": "Видеофайл не найден. Запись удалена из истории.",
+    "save_failed": "Не удалось сохранить видео в историю. Проверьте доступное место.",
+    "delete_files_failed": "Метаданные удалены, но файлы могут остаться на диске.",
+    "thumbnail_failed": "Не удалось сгенерировать превью",
+    "load_failed": "Не удалось загрузить видео"
+  },
+  "capture_bar": {
+    "fullscreen": "Весь экран",
+    "region": "Область",
+    "window": "Окно",
+    "no_windows": "Окна не найдены",
+    "untitled": "Без названия",
+    "close": "Закрыть"
+  }
+}

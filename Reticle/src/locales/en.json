@@ -1,0 +1,277 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "save": "Save",
+    "close": "Close"
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "general": "General",
+      "hotkeys": "Hotkeys",
+      "about": "About"
+    },
+    "about": {
+      "description": "A minimalistic and fast screenshot tool crafted with attention to detail.",
+      "author": "Author",
+      "version": "Version",
+      "stage": "Development Stage",
+      "stage_desc": "15 - Polishing and new features implementation",
+      "links": "Links"
+    },
+    "general": {
+      "system": "System",
+      "autostart": "Launch on startup",
+      "autostart_desc": "Automatically open Reticle when logging into Windows",
+      "language": "Language",
+      "language_desc": "Select interface language",
+      "debug": "Debug",
+      "logs": "Application Logs",
+      "logs_desc": "Open logs folder for diagnostics",
+      "open_folder": "Open folder",
+      "autosave": "Save Location",
+      "autosave_toggle": "Custom save paths",
+      "autosave_toggle_desc": "Save screenshots and videos to custom folders",
+      "screenshot_folder": "Screenshot folder",
+      "video_folder": "Video folder",
+      "ocr_engine": "OCR engine",
+      "ocr_engine_desc": "Choose text recognition backend",
+      "default_folder": "Default: {folder}",
+      "browse": "Browse"
+    },
+    "hotkeys": {
+      "title": "Hotkeys",
+      "action": "Action",
+      "keys": "Shortcut",
+      "recording": "Recording",
+      "actions": {
+        "show_app": "Show Interface",
+        "fullscreen": "Fullscreen screenshot",
+        "region": "Region screenshot",
+        "window": "Window screenshot",
+        "record_fullscreen": "Record Screen",
+        "record_region": "Record Area",
+        "record_window": "Record Window",
+        "pause_recording": "Pause Recording",
+        "stop_recording": "Stop Recording",
+        "capture_toolbar": "Capture Toolbar"
+      },
+      "info_title": "Information",
+      "info_desc": "Global shortcuts are active even when Reticle is hidden in the system tray.",
+      "register_error": "Failed to register {shortcut}. The key might be assigned to a system function."
+    }
+  },
+  "welcome": {
+    "title": "Welcome to Reticle",
+    "subtitle": "A beautiful and minimalistic screenshot tool.",
+    "features": {
+      "backgrounds": {
+        "title": "Beautiful backgrounds",
+        "desc": "Add gradients and padding"
+      },
+      "annotations": {
+        "title": "Annotations",
+        "desc": "Draw arrows"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "desc": "Hide sensitive info in seconds"
+      },
+      "native": {
+        "title": "Fast and Native",
+        "desc": "Built with Rust"
+      }
+    },
+    "start_button": "Get Started",
+    "tray_hint": "After closing, Reticle stays in the system tray — look for the icon near the clock."
+  },
+  "editor": {
+    "capture_error": "Capture failed: ",
+    "no_image_to_save": "No image to save!",
+    "render_error": "Render failed: ",
+    "saved_success": "Saved to Pictures/Reticle",
+    "save_error": "Save failed: ",
+    "copy_success": "Copied to clipboard!",
+    "copy_error": "Copy failed: ",
+    "empty_state": "Press \"Snapshot\" to start",
+    "tools": {
+      "fullscreen": "Fullscreen",
+      "region": "Region",
+      "window": "Window",
+      "arrow_style": "Arrow Style",
+      "undo": "Undo",
+      "blur": "Blur",
+      "clear": "Clear",
+      "copy": "Copy",
+      "save": "Save",
+      "sticker": "Emoji Sticker",
+      "background": "Background",
+      "coming_soon": "Coming Soon",
+      "ocr_scan": "Recognize Text",
+      "ocr_ready": "Text recognized. Click boxes to copy.",
+      "ocr_empty": "No text found",
+      "ocr_error": "Text recognition failed: "
+    },
+    "video": {
+      "frame_rate": "Frame Rate",
+      "encoder": "Encoder",
+      "unknown": "Unknown",
+      "video_encoder": "Video Encoder",
+      "microphone": "Microphone",
+      "enable_mic": "Enable Microphone",
+      "select_device": "Select Device",
+      "no_mics": "No microphones found",
+      "system_audio_on": "System Audio On",
+      "system_audio_off": "System Audio Off",
+      "cursor_visible": "Cursor Visible",
+      "cursor_hidden": "Cursor Hidden",
+      "switch_to_screenshot": "Switch to Screenshot",
+      "switch_to_video": "Switch to Video",
+      "recording": "Recording...",
+      "record_screen": "Record Screen",
+      "record_area": "Record Area",
+      "record_window": "Record Window",
+      "resume_recording": "Resume Recording",
+      "pause_recording": "Pause Recording",
+      "stop_recording": "Stop Recording"
+    },
+    "video_errors": {
+      "recording_error": "Recording error: ",
+      "start_failed": "Failed to start recording: ",
+      "stop_failed": "Failed to stop recording: ",
+      "pause_failed": "Failed to toggle pause: ",
+      "window_capture_failed": "Failed to capture window: "
+    },
+    "properties": {
+      "arrow_style": "Arrow Style",
+      "color": "Color",
+      "thickness": "Thickness",
+      "background": "Background",
+      "colors": {
+        "white": "White",
+        "transparent": "Transparent"
+      },
+      "shadow": "Shadow",
+      "opacity": "Opacity",
+      "blur": "Blur",
+      "spread": "Spread",
+      "dimensions": "Dimensions",
+      "padding": "Padding",
+      "border_radius": "Border Radius",
+      "background_blur": "Background Blur",
+      "image": "Image",
+      "shader_bg": "Shader Background",
+      "shader_reset": "Reset",
+      "shader_randomize": "Randomize",
+      "shader_speed": "Speed",
+      "shader_strength": "Strength",
+      "shader_size": "Size",
+      "shader_deformation": "Deformation",
+      "shader_base_color": "Base Color",
+      "shader_color_a": "Color A",
+      "shader_color_b": "Color B",
+      "shader_halftone": "Halftone",
+      "x": "X",
+      "y": "Y"
+    }
+  },
+  "monitor_selector": {
+    "title": "Select Monitor",
+    "instruction_key": "Press key",
+    "instruction_mouse": "or click with mouse"
+  },
+  "history": {
+    "title": "Screenshot History",
+    "empty": "History is empty",
+    "load_tooltip": "Load into editor",
+    "delete_tooltip": "Delete",
+    "delete_success": "Screenshot deleted"
+  },
+  "window_selector": {
+    "title": "Select Window to Capture",
+    "searching": "Searching for open windows...",
+    "load_error": "Failed to load windows: ",
+    "retry": "Retry",
+    "no_windows": "No suitable windows found.",
+    "untitled_window": "Untitled Window",
+    "cancel_instruction": "Press ESC to cancel"
+  },
+  "region_selector": {
+    "instruction": "Select region to capture. ESC to cancel."
+  },
+  "video_editor": {
+    "loading_thumbnails": "Loading thumbnails...",
+    "loading_tracking": "Loading tracking data...",
+    "empty_state": "No video loaded",
+    "restart": "Restart",
+    "play": "Play",
+    "pause": "Pause",
+    "toggle_cursor": "Toggle Cursor",
+    "toggle_zoom": "Toggle Zoom",
+    "auto_zoom": "Auto Zoom",
+    "clear_keyframes": "Clear Keyframes",
+    "close_editor": "Close Editor",
+    "export_video": "Export Video",
+    "export": "Export",
+    "exporting": "Exporting...",
+    "rendering_overlays": "Rendering overlays...",
+    "processing_video": "Processing video...",
+    "compositing": "Compositing video...",
+    "export_complete": "Export complete!",
+    "export_success": "Video exported successfully",
+    "export_failed": "Export failed",
+    "no_video": "No video to export",
+    "codec": "Video Codec",
+    "codec_hint": "Hardware encoders (NVENC, AMF, QSV) are faster than CPU",
+    "codec_hint_new": "Only reliable codecs are shown (H.264 for MP4, VP9/VP8 for WebM)",
+    "video_codec": "Video Codec",
+    "preset": "Encoding Speed",
+    "preset_hint": "Faster presets = larger file size",
+    "quality": "Quality (CRF)",
+    "quality_hint": "Lower values = better quality, larger file size",
+    "quality_preset": "Quality Preset",
+    "quality_preset_hint": "Higher quality = better video, larger file size",
+    "highest": "Highest",
+    "lowest": "Lowest",
+    "show_advanced": "Show Advanced",
+    "hide_advanced": "Hide Advanced",
+    "output_format": "Output Format",
+    "format_hint": "More formats coming soon",
+    "format_hint_new": "MP4 with H.264 is most compatible, WebM with VP9 is more efficient",
+    "format_hint_gif": "Animated GIF — no audio, larger file size. Best for short clips",
+    "gif_fps": "GIF Frame Rate",
+    "gif_width": "GIF Width",
+    "gif_width_hint": "Height is scaled automatically to preserve aspect ratio",
+    "converting_gif": "Converting to GIF...",
+    "export_hint": "This may take a few minutes depending on video length",
+    "audio_tracks": "Audio Tracks",
+    "system_audio": "System Audio",
+    "microphone_audio": "Microphone Audio",
+    "audio_tracks_hint": "Select which audio tracks to include in the export",
+    "music_track": "Music Track",
+    "add_music": "Add Music",
+    "music_volume": "Music Volume",
+    "remove_music": "Remove Music"
+  },
+  "video_history": {
+    "title": "Video History",
+    "empty": "No videos recorded yet",
+    "load_tooltip": "Load into editor",
+    "delete_tooltip": "Delete video",
+    "delete_success": "Video deleted",
+    "file_not_found": "Video file not found. Record removed from history.",
+    "save_failed": "Failed to save video to history. Check available space.",
+    "delete_files_failed": "Metadata removed, but files may remain on disk.",
+    "thumbnail_failed": "Failed to generate thumbnail",
+    "load_failed": "Failed to load video"
+  },
+  "capture_bar": {
+    "fullscreen": "Fullscreen",
+    "region": "Region",
+    "window": "Window",
+    "no_windows": "No windows found",
+    "untitled": "Untitled",
+    "close": "Close"
+  }
+}

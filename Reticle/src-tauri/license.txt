@@ -1,0 +1,32 @@
+END USER LICENSE AGREEMENT (EULA)
+For "Reticle" Software
+
+Copyright (c) 2026 Reticle Inc.
+All Rights Reserved.
+
+1. AGREEMENT
+This End User License Agreement ("Agreement") is a legal agreement between you ("User") and Reticle Inc. ("Author") for the software product "Reticle" ("Software"). By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement.
+
+2. LICENSE GRANT
+The Author grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Software solely for your personal or commercial purposes, strictly in accordance with the terms of this Agreement.
+
+3. RESTRICTIONS
+You agree not to, and you will not permit others to:
+   a) License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose, or otherwise commercially exploit the Software or make the Software available to any third party.
+   b) Modify, make derivative works of, disassemble, decrypt, reverse compile, or reverse engineer any part of the Software.
+   c) Remove, alter, or obscure any proprietary notice (including any notice of copyright or trademark) of the Author or its affiliates, partners, suppliers, or the licensors of the Software.
+   d) Circumvent or attempt to circumvent the activation mechanism or Hardware ID (HWID) protection.
+
+4. INTELLECTUAL PROPERTY
+The Software, including without limitation all copyrights, patents, trademarks, trade secrets, and other intellectual property rights are, and shall remain, the sole and exclusive property of the Author.
+
+5. NO WARRANTY ("AS IS" CLAUSE)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The Author does not warrant that the Software will function without interruption or is free of errors or bugs. You acknowledge that the Software may be in a "Beta" or "Early Access" state.
+
+6. LIMITATION OF LIABILITY
+In no event shall the Author be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data, or other information, for business interruption, for personal injury, for loss of privacy arising out of or in any way related to the use of or inability to use the Software).
+
+7. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice from the Author if you fail to comply with any term(s) of this Agreement. Upon termination of the Agreement, you shall cease all use of the Software and destroy all copies, full or partial, of the Software.

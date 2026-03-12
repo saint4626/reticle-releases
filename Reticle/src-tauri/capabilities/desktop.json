@@ -1,0 +1,20 @@
+{
+  "identifier": "desktop-capability",
+  "platforms": [
+    "macOS",
+    "windows",
+    "linux"
+  ],
+  "windows": [
+    "main",
+    "capture_toolbar",
+    "region_overlay",
+    "record_overlay"
+  ],
+  "permissions": [
+    "global-shortcut:default",
+    "autostart:default",
+    "dialog:default",
+    "dialog:allow-save"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+    "common": {
+        "cancel": "Cancelar",
+        "ok": "OK",
+        "save": "Salvar",
+        "close": "Fechar"
+    },
+    "settings": {
+        "title": "Configurações",
+        "tabs": {
+            "general": "Geral",
+            "hotkeys": "Atalhos",
+            "about": "Sobre"
+        },
+        "about": {
+            "description": "Uma ferramenta de captura de tela minimalista e rápida, feita com atenção aos detalhes.",
+            "author": "Autor",
+            "version": "Versão",
+            "stage": "Fase de Desenvolvimento",
+            "stage_desc": "15 - Implementação de novas funções e polimento",
+            "links": "Links"
+        },
+        "general": {
+            "system": "Sistema",
+            "autostart": "Iniciar com o sistema",
+            "autostart_desc": "Abrir o Reticle automaticamente ao fazer login no Windows",
+            "language": "Idioma",
+            "language_desc": "Selecione o idioma da interface",
+            "debug": "Depuração",
+            "logs": "Registros do Aplicativo",
+            "logs_desc": "Abrir pasta de registros para diagnósticos",
+            "open_folder": "Abrir pasta",
+            "autosave": "Local de salvamento",
+            "autosave_toggle": "Caminhos de salvamento personalizados",
+            "autosave_toggle_desc": "Salvar capturas e vídeos em pastas personalizadas",
+            "screenshot_folder": "Pasta de capturas",
+            "video_folder": "Pasta de vídeos",
+            "ocr_engine": "Motor OCR",
+            "ocr_engine_desc": "Escolha o backend de reconhecimento de texto",
+            "default_folder": "Padrão: {folder}",
+            "browse": "Procurar"
+        },
+        "hotkeys": {
+            "title": "Atalhos",
+            "action": "Ação",
+            "keys": "Ligar",
+            "recording": "Gravando",
+            "actions": {
+                "show_app": "Mostrar Interface",
+                "fullscreen": "Captura de tela inteira",
+                "region": "Captura de região",
+                "window": "Captura de janela",
+                "record_fullscreen": "Gravar Tela",
+                "record_region": "Gravar Área",
+                "record_window": "Gravar Janela",
+                "pause_recording": "Pausar Gravação",
+                "stop_recording": "Parar Gravação",
+                "capture_toolbar": "Barra de Captura"
+            },
+            "info_title": "Informação",
+            "info_desc": "Os atalhos globais ficam ativos mesmo quando o Reticle está oculto na bandeja do sistema.",
+            "register_error": "Falha ao registrar {shortcut}. A tecla pode estar atribuída a uma função do sistema."
+        }
+    },
+    "welcome": {
+        "title": "Bem-vindo ao Reticle",
+        "subtitle": "Uma ferramenta de captura de tela bonita e minimalista.",
+        "features": {
+            "backgrounds": {
+                "title": "Fundos bonitos",
+                "desc": "Adicione gradientes e preenchimentos"
+            },
+            "annotations": {
+                "title": "Anotações",
+                "desc": "Desenhe setas"
+            },
+            "privacy": {
+                "title": "Privacidade",
+                "desc": "Oculte informações sensíveis em segundos"
+            },
+            "native": {
+                "title": "Rápido e Nativo",
+                "desc": "Construído com Rust"
+            }
+        },
+        "start_button": "Começar",
+        "tray_hint": "Após fechar, o Reticle permanece na bandeja do sistema — procure o ícone perto do relógio."
+    },
+    "editor": {
+        "capture_error": "Falha na captura: ",
+        "no_image_to_save": "Nenhuma imagem para salvar!",
+        "render_error": "Falha na renderização: ",
+        "saved_success": "Salvo em Imagens/Reticle",
+        "save_error": "Falha ao salvar: ",
+        "copy_success": "Copiado para a área de transferência!",
+        "copy_error": "Falha ao copiar: ",
+        "empty_state": "Pressione \"Capturar\" para começar",
+        "tools": {
+            "fullscreen": "Tela Inteira",
+            "region": "Região",
+            "window": "Janela",
+            "arrow_style": "Estilo da Seta",
+            "undo": "Desfazer",
+            "blur": "Desfocar",
+            "clear": "Limpar",
+            "copy": "Copiar",
+            "save": "Salvar",
+            "sticker": "Sticker de emoji",
+            "background": "Fundo",
+            "coming_soon": "Em breve",
+            "ocr_scan": "Reconhecer texto",
+            "ocr_ready": "Texto reconhecido. Clique em uma caixa para copiar.",
+            "ocr_empty": "Nenhum texto encontrado",
+            "ocr_error": "Falha no reconhecimento de texto: "
+        },
+        "video": {
+            "frame_rate": "Taxa de Quadros",
+            "encoder": "Codificador",
+            "unknown": "Desconhecido",
+            "video_encoder": "Codificador de Vídeo",
+            "microphone": "Microfone",
+            "enable_mic": "Ativar Microfone",
+            "select_device": "Selecionar Dispositivo",
+            "no_mics": "Nenhum microfone encontrado",
+            "system_audio_on": "Áudio do Sistema Ligado",
+            "system_audio_off": "Áudio do Sistema Desligado",
+            "cursor_visible": "Cursor Visível",
+            "cursor_hidden": "Cursor Oculto",
+            "switch_to_screenshot": "Mudar para Captura de Tela",
+            "switch_to_video": "Mudar para Vídeo",
+            "recording": "Gravando...",
+            "record_screen": "Gravar Tela",
+            "record_area": "Gravar Área",
+            "record_window": "Gravar Janela",
+            "resume_recording": "Retomar Gravação",
+            "pause_recording": "Pausar Gravação",
+            "stop_recording": "Parar Gravação"
+        },
+        "video_errors": {
+            "recording_error": "Erro de gravação: ",
+            "start_failed": "Falha ao iniciar a gravação: ",
+            "stop_failed": "Falha ao parar a gravação: ",
+            "pause_failed": "Falha ao alternar pausa: ",
+            "window_capture_failed": "Falha ao capturar a janela: "
+        },
+        "properties": {
+            "arrow_style": "Estilo da Seta",
+            "color": "Cor",
+            "thickness": "Espessura",
+            "background": "Fundo",
+            "colors": {
+                "white": "Branco",
+                "transparent": "Transparente"
+            },
+            "shadow": "Sombra",
+            "opacity": "Opacidade",
+            "blur": "Desfoque",
+            "spread": "Propagação",
+            "dimensions": "Dimensões",
+            "padding": "Preenchimento",
+            "border_radius": "Raio da Borda",
+            "background_blur": "Desfoque de Fundo",
+            "image": "Imagem",
+            "shader_bg": "Fundo shader",
+            "shader_reset": "Redefinir",
+            "shader_randomize": "Aleatório",
+            "shader_speed": "Velocidade",
+            "shader_strength": "Intensidade",
+            "shader_size": "Tamanho",
+            "shader_deformation": "Deformação",
+            "shader_base_color": "Cor base",
+            "shader_color_a": "Cor A",
+            "shader_color_b": "Cor B",
+            "shader_halftone": "Meio-tom",
+            "x": "X",
+            "y": "Y"
+        }
+    },
+    "monitor_selector": {
+        "title": "Selecionar Monitor",
+        "instruction_key": "Pressione a tecla",
+        "instruction_mouse": "ou clique com o mouse"
+    },
+    "history": {
+        "title": "Histórico de Capturas",
+        "empty": "O histórico está vazio",
+        "load_tooltip": "Carregar no editor",
+        "delete_tooltip": "Excluir",
+        "delete_success": "Captura de tela excluída"
+    },
+    "window_selector": {
+        "title": "Selecione a Janela para Capturar",
+        "searching": "Procurando janelas abertas...",
+        "load_error": "Falha ao carregar janelas: ",
+        "retry": "Tentar novamente",
+        "no_windows": "Nenhuma janela adequada encontrada.",
+        "untitled_window": "Janela Sem Título",
+        "cancel_instruction": "Pressione ESC para cancelar"
+    },
+    "region_selector": {
+        "instruction": "Selecione a região para capturar. ESC para cancelar."
+    },
+    "video_editor": {
+        "loading_thumbnails": "Carregando miniaturas...",
+        "loading_tracking": "Carregando dados de rastreamento...",
+        "empty_state": "Nenhum vídeo carregado",
+        "restart": "Reiniciar",
+        "play": "Reproduzir",
+        "pause": "Pausar",
+        "toggle_cursor": "Alternar Cursor",
+        "toggle_zoom": "Alternar Zoom",
+        "auto_zoom": "Zoom Automático",
+        "clear_keyframes": "Limpar Quadros-Chave",
+        "close_editor": "Fechar Editor",
+        "export_video": "Exportar Vídeo",
+        "export": "Exportar",
+        "exporting": "Exportando...",
+        "rendering_overlays": "Renderizando sobreposições...",
+        "processing_video": "Processando vídeo...",
+        "compositing": "Compondo vídeo...",
+        "export_complete": "Exportação concluída!",
+        "export_success": "Vídeo exportado com sucesso",
+        "export_failed": "Falha na exportação",
+        "no_video": "Nenhum vídeo para exportar",
+        "codec": "Codificador de Vídeo",
+        "codec_hint": "Codificadores de hardware (NVENC, AMF, QSV) são mais rápidos que CPU",
+        "codec_hint_new": "Apenas codificadores confiáveis são mostrados",
+        "video_codec": "Codificador de Vídeo",
+        "preset": "Velocidade de Codificação",
+        "preset_hint": "Velocidades maiores = tamanho de arquivo maior",
+        "quality": "Qualidade (CRF)",
+        "quality_hint": "Valores menores = melhor qualidade, arquivo maior",
+        "quality_preset": "Predefinição de Qualidade",
+        "quality_preset_hint": "Maior qualidade = melhor vídeo, arquivo maior",
+        "highest": "Mais Alta",
+        "lowest": "Mais Baixa",
+        "show_advanced": "Mostrar Avançado",
+        "hide_advanced": "Ocultar Avançado",
+        "output_format": "Formato de Saída",
+        "format_hint": "Mais formatos em breve",
+        "format_hint_new": "MP4 com H.264 é mais compatível",
+        "format_hint_gif": "GIF animado — sem áudio, arquivo maior. Melhor para clipes curtos",
+        "gif_fps": "Taxa de quadros do GIF",
+        "gif_width": "Largura do GIF",
+        "gif_width_hint": "A altura é dimensionada automaticamente para preservar a proporção",
+        "converting_gif": "Convertendo para GIF...",
+        "export_hint": "Isso pode levar alguns minutos dependendo do comprimento do vídeo",
+        "audio_tracks": "Faixas de Áudio",
+        "system_audio": "Áudio do Sistema",
+        "microphone_audio": "Áudio do Microfone",
+        "audio_tracks_hint": "Selecione quais faixas de áudio incluir na exportação",
+        "music_track": "Trilha Musical",
+        "add_music": "Adicionar Música",
+        "music_volume": "Volume da Música",
+        "remove_music": "Remover Música"
+    },
+    "video_history": {
+        "title": "Histórico de Vídeo",
+        "empty": "Nenhum vídeo gravado ainda",
+        "load_tooltip": "Carregar no editor",
+        "delete_tooltip": "Excluir vídeo",
+        "delete_success": "Vídeo excluído",
+        "file_not_found": "Arquivo de vídeo não encontrado. Registro removido do histórico.",
+        "save_failed": "Falha ao salvar o vídeo no histórico. Verifique o espaço disponível.",
+        "delete_files_failed": "Metadados removidos, mas os arquivos podem permanecer no disco.",
+        "thumbnail_failed": "Falha ao gerar a miniatura",
+        "load_failed": "Falha ao carregar o vídeo"
+    },
+    "capture_bar": {
+        "fullscreen": "Tela cheia",
+        "region": "Região",
+        "window": "Janela",
+        "no_windows": "Nenhuma janela encontrada",
+        "untitled": "Sem título",
+        "close": "Fechar"
+    }
+}

@@ -1,0 +1,277 @@
+{
+  "common": {
+    "cancel": "Annulla",
+    "ok": "OK",
+    "save": "Salva",
+    "close": "Chiudi"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "tabs": {
+      "general": "Generale",
+      "hotkeys": "Scorciatoie",
+      "about": "Informazioni"
+    },
+    "about": {
+      "description": "Uno strumento di screenshot minimalista e veloce, realizzato con cura per i dettagli.",
+      "author": "Autore",
+      "version": "Versione",
+      "stage": "Fase di sviluppo",
+      "stage_desc": "15 - Implementazione di nuove funzioni e pulizia",
+      "links": "Link"
+    },
+    "general": {
+      "system": "Sistema",
+      "autostart": "Avvia all'avvio",
+      "autostart_desc": "Apri automaticamente Reticle all'accesso a Windows",
+      "language": "Lingua",
+      "language_desc": "Seleziona la lingua dell'interfaccia",
+      "debug": "Debug",
+      "logs": "Log dell'applicazione",
+      "logs_desc": "Apri la cartella dei log per la diagnostica",
+      "open_folder": "Apri cartella",
+      "autosave": "Posizione di salvataggio",
+      "autosave_toggle": "Percorsi di salvataggio personalizzati",
+      "autosave_toggle_desc": "Salva screenshot e video in cartelle personalizzate",
+      "screenshot_folder": "Cartella screenshot",
+      "video_folder": "Cartella video",
+      "ocr_engine": "Motore OCR",
+      "ocr_engine_desc": "Seleziona il backend di riconoscimento testo",
+      "default_folder": "Predefinito: {folder}",
+      "browse": "Sfoglia"
+    },
+    "hotkeys": {
+      "title": "Scorciatoie da tastiera",
+      "action": "Azione",
+      "keys": "Scorciatoia",
+      "recording": "Registrazione",
+      "actions": {
+        "show_app": "Mostra interfaccia",
+        "fullscreen": "Screenshot a schermo intero",
+        "region": "Screenshot di una regione",
+        "window": "Screenshot di una finestra",
+        "record_screen": "Registra schermo",
+        "record_region": "Registra regione",
+        "record_window": "Registra finestra",
+        "pause_recording": "Pausa registrazione",
+        "stop_recording": "Ferma registrazione",
+        "capture_toolbar": "Barra di cattura"
+      },
+      "info_title": "Informazioni",
+      "info_desc": "La personalizzazione delle scorciatoie sarà disponibile nei prossimi aggiornamenti.",
+      "register_error": "Impossibile registrare {shortcut}. Il tasto potrebbe essere assegnato a una funzione di sistema."
+    }
+  },
+  "welcome": {
+    "title": "Benvenuto in Reticle",
+    "subtitle": "Uno strumento di screenshot bello e minimalista.",
+    "features": {
+      "backgrounds": {
+        "title": "Sfondi bellissimi",
+        "desc": "Aggiungi sfumature e margini"
+      },
+      "annotations": {
+        "title": "Annotazioni",
+        "desc": "Disegna frecce"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "desc": "Nascondi informazioni sensibili in pochi secondi"
+      },
+      "native": {
+        "title": "Veloce e nativo",
+        "desc": "Costruito con Rust"
+      }
+    },
+    "start_button": "Inizia",
+    "tray_hint": "Dopo la chiusura, Reticle rimane nella barra delle applicazioni — cerca l'icona vicino all'orologio."
+  },
+  "editor": {
+    "capture_error": "Acquisizione fallita: ",
+    "no_image_to_save": "Nessuna immagine da salvare!",
+    "render_error": "Rendering fallito: ",
+    "saved_success": "Salvato in Immagini/Reticle",
+    "save_error": "Salvataggio fallito: ",
+    "copy_success": "Copiato negli appunti!",
+    "copy_error": "Copia fallita: ",
+    "empty_state": "Premi \"Acquisisci\" per iniziare",
+    "tools": {
+      "fullscreen": "Schermo intero",
+      "region": "Regione",
+      "window": "Finestra",
+      "arrow_style": "Stile freccia",
+      "undo": "Annulla",
+      "blur": "Sfocatura",
+      "clear": "Cancella",
+      "copy": "Copia",
+      "save": "Salva",
+      "sticker": "Sticker emoji",
+      "background": "Sfondo",
+      "coming_soon": "Prossimamente",
+      "ocr_scan": "Riconosci testo",
+      "ocr_ready": "Testo riconosciuto. Clicca un box per copiare.",
+      "ocr_empty": "Nessun testo trovato",
+      "ocr_error": "Riconoscimento testo fallito: "
+    },
+    "video": {
+      "frame_rate": "Frequenza fotogrammi",
+      "encoder": "Codificatore",
+      "unknown": "Sconosciuto",
+      "video_encoder": "Codificatore video",
+      "microphone": "Microfono",
+      "enable_mic": "Abilita microfono",
+      "select_device": "Seleziona dispositivo",
+      "no_mics": "Nessun microfono trovato",
+      "system_audio_on": "Audio di sistema attivo",
+      "system_audio_off": "Audio di sistema disattivo",
+      "cursor_visible": "Cursore visibile",
+      "cursor_hidden": "Cursore nascosto",
+      "switch_to_screenshot": "Passa a screenshot",
+      "switch_to_video": "Passa a video",
+      "recording": "Registrazione in corso...",
+      "record_screen": "Registra schermo",
+      "record_area": "Registra area",
+      "record_window": "Registra finestra",
+      "resume_recording": "Riprendi registrazione",
+      "pause_recording": "Pausa registrazione",
+      "stop_recording": "Ferma registrazione"
+    },
+    "video_errors": {
+      "recording_error": "Errore di registrazione: ",
+      "start_failed": "Avvio registrazione fallito: ",
+      "stop_failed": "Arresto registrazione fallito: ",
+      "pause_failed": "Pausa fallita: ",
+      "window_capture_failed": "Acquisizione finestra fallita: "
+    },
+    "properties": {
+      "arrow_style": "Stile freccia",
+      "color": "Colore",
+      "thickness": "Spessore",
+      "background": "Sfondo",
+      "colors": {
+        "white": "Bianco",
+        "transparent": "Trasparente"
+      },
+      "shadow": "Ombra",
+      "opacity": "Opacità",
+      "blur": "Sfocatura",
+      "spread": "Espansione",
+      "dimensions": "Dimensioni",
+      "padding": "Margine interno",
+      "border_radius": "Raggio bordo",
+      "background_blur": "Sfocatura sfondo",
+      "image": "Immagine",
+      "shader_bg": "Sfondo shader",
+      "shader_reset": "Ripristina",
+      "shader_randomize": "Casuale",
+      "shader_speed": "Velocità",
+      "shader_strength": "Intensità",
+      "shader_size": "Dimensione",
+      "shader_deformation": "Deformazione",
+      "shader_base_color": "Colore base",
+      "shader_color_a": "Colore A",
+      "shader_color_b": "Colore B",
+      "shader_halftone": "Mezzatinta",
+      "x": "X",
+      "y": "Y"
+    }
+  },
+  "monitor_selector": {
+    "title": "Seleziona monitor",
+    "instruction_key": "Premi un tasto",
+    "instruction_mouse": "o clicca con il mouse"
+  },
+  "history": {
+    "title": "Cronologia screenshot",
+    "empty": "La cronologia è vuota",
+    "load_tooltip": "Carica nell'editor",
+    "delete_tooltip": "Elimina",
+    "delete_success": "Screenshot eliminato"
+  },
+  "window_selector": {
+    "title": "Seleziona finestra da acquisire",
+    "searching": "Ricerca finestre aperte...",
+    "load_error": "Caricamento finestre fallito: ",
+    "retry": "Riprova",
+    "no_windows": "Nessuna finestra adatta trovata.",
+    "untitled_window": "Finestra senza titolo",
+    "cancel_instruction": "Premi ESC per annullare"
+  },
+  "region_selector": {
+    "instruction": "Seleziona la regione da acquisire. ESC per annullare."
+  },
+  "video_editor": {
+    "loading_thumbnails": "Caricamento miniature...",
+    "loading_tracking": "Caricamento dati di tracciamento...",
+    "empty_state": "Nessun video caricato",
+    "restart": "Ricomincia",
+    "play": "Riproduci",
+    "pause": "Pausa",
+    "toggle_cursor": "Attiva/disattiva cursore",
+    "toggle_zoom": "Attiva/disattiva zoom",
+    "auto_zoom": "Zoom automatico",
+    "clear_keyframes": "Cancella fotogrammi chiave",
+    "close_editor": "Chiudi editor",
+    "export_video": "Esporta video",
+    "export": "Esporta",
+    "exporting": "Esportazione in corso...",
+    "rendering_overlays": "Rendering sovrapposizioni...",
+    "processing_video": "Elaborazione video...",
+    "compositing": "Composizione video...",
+    "export_complete": "Esportazione completata!",
+    "export_success": "Video esportato con successo",
+    "export_failed": "Esportazione fallita",
+    "no_video": "Nessun video da esportare",
+    "codec": "Codec video",
+    "codec_hint": "I codificatori hardware (NVENC, AMF, QSV) sono più veloci della CPU",
+    "codec_hint_new": "Vengono mostrati solo codec affidabili (H.264 per MP4, VP9/VP8 per WebM)",
+    "video_codec": "Codec video",
+    "preset": "Velocità di codifica",
+    "preset_hint": "Preset più veloci = file di dimensioni maggiori",
+    "quality": "Qualità (CRF)",
+    "quality_hint": "Valori più bassi = qualità migliore, file più grande",
+    "quality_preset": "Preset qualità",
+    "quality_preset_hint": "Qualità più alta = video migliore, file più grande",
+    "highest": "Massima",
+    "lowest": "Minima",
+    "show_advanced": "Mostra avanzate",
+    "hide_advanced": "Nascondi avanzate",
+    "output_format": "Formato di output",
+    "format_hint": "Altri formati in arrivo",
+    "format_hint_new": "MP4 con H.264 è più compatibile, WebM con VP9 è più efficiente",
+    "format_hint_gif": "GIF animata — nessun audio, file più grande. Ideale per clip brevi",
+    "gif_fps": "Fotogrammi al secondo GIF",
+    "gif_width": "Larghezza GIF",
+    "gif_width_hint": "L'altezza viene scalata automaticamente per preservare le proporzioni",
+    "converting_gif": "Conversione in GIF...",
+    "export_hint": "Potrebbero volerci alcuni minuti a seconda della durata del video",
+    "audio_tracks": "Tracce audio",
+    "system_audio": "Audio di sistema",
+    "microphone_audio": "Audio microfono",
+    "audio_tracks_hint": "Seleziona le tracce audio da includere nell'esportazione",
+    "music_track": "Traccia musicale",
+    "add_music": "Aggiungi musica",
+    "music_volume": "Volume musica",
+    "remove_music": "Rimuovi musica"
+  },
+  "video_history": {
+    "title": "Cronologia video",
+    "empty": "Nessun video registrato",
+    "load_tooltip": "Carica nell'editor",
+    "delete_tooltip": "Elimina video",
+    "delete_success": "Video eliminato",
+    "file_not_found": "File video non trovato. Record rimosso dalla cronologia.",
+    "save_failed": "Salvataggio video nella cronologia fallito. Controlla lo spazio disponibile.",
+    "delete_files_failed": "Metadati rimossi, ma i file potrebbero rimanere sul disco.",
+    "thumbnail_failed": "Generazione miniatura fallita",
+    "load_failed": "Caricamento video fallito"
+  },
+  "capture_bar": {
+    "fullscreen": "Schermo intero",
+    "region": "Regione",
+    "window": "Finestra",
+    "no_windows": "Nessuna finestra trovata",
+    "untitled": "Senza titolo",
+    "close": "Chiudi"
+  }
+}
