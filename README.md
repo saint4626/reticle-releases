@@ -145,5 +145,5 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 <br />
 
 <div align="center">
-  <i>Built with ❤️ by <a href="https://github.com/saint4626">saint4626</a></i>
+  <i>Built by <a href="https://github.com/saint4626">saint4626</a></i>
 </div>
