@@ -86,7 +86,7 @@ Reticle is built with **Rust** and **Tauri**, making it incredibly lightweight a
 | ✅ | **🔍 Auto-Zoom** — click cluster detection, smooth keyframe transitions<br>*(Автозум по кликам с плавными переходами)* |
 | ✅ | **📤 Video Export** — MP4/WebM, H.264, quality presets, audio mixing<br>*(Экспорт видео: MP4/WebM, H.264, пресеты качества, микс аудио)* |
 | 🔜 | **🎬 Video Enhancements** — x2 speed, improved zoom algorithms, editor & tools improvements<br>*(Видеофишки: ускорение x2, улучшение алгоритмов зумирования, улучшения редактора и инструментов)* |
-| 🔜 | **🔤 OCR Support for Screenshots** — extract text from captures<br>*(Поддержка OCR для скриншотов — извлечение текста из захватов)* |
+| ✅ | **🔤 OCR Support for Screenshots** — extract text from captures<br>*(Поддержка OCR для скриншотов — извлечение текста из захватов)* |
 | 🔜 | **Text Tool & Stickers**<br>*(Инструмент "Текст" и стикеры)* |
 | 🔜 | **macOS & Linux Support**<br>*(Поддержка macOS и Linux)* |
 | 🔜 | **Cloud Upload & Sharing**<br>*(Загрузка в облако и шеринг ссылок)* |
