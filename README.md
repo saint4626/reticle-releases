@@ -30,7 +30,7 @@
   <br />
 
   <h1>
-    <a href="https://github.com/saint4626/reticle-releases/releases/latest/download/Reticle_1.1.5_x64-setup.exe">
+    <a href="https://github.com/saint4626/reticle-releases/releases/latest/download/Reticle_1.1.6_x64-setup.exe">
       📥 Download for Windows (x64)
     </a>
   </h1>
